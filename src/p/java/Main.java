@@ -1,4 +1,6 @@
 package p.java;
+import task.java.LScanner;
+
 import java.io.*;
 
 enum Letter{
@@ -160,7 +162,10 @@ public class Main {
         }
 
     }
-    public static void main(String[] args) {
-
+    public static void main(String[] args) throws IOException {
+        stringObjects();
+        operations();
+        switchTypes();
+        LScanner.read();
     }
 }
